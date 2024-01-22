@@ -31,7 +31,15 @@ export const App = () => {
     ) {
       dispatch(fetchCars({ page, limitOnPage, filters }));
     }
-  }, [dispatch, page, filters]);
+  }, [
+    dispatch,
+    page,
+    filters,
+    initialState.filters.rentalPrice,
+    initialState.filters.from,
+    initialState.filters.to,
+    limitOnPage,
+  ]);
 
   useEffect(() => {
     if (
@@ -41,7 +49,15 @@ export const App = () => {
     ) {
       dispatch(getAllCars({ filters, page, limitOnPage }));
     }
-  }, [filters, page]);
+  }, [
+    dispatch,
+    filters,
+    initialState.filters.from,
+    initialState.filters.rentalPrice,
+    initialState.filters.to,
+    limitOnPage,
+    page,
+  ]);
 
   return (
     <>
