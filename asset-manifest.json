@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/career_skills_carsharing/static/css/main.b87514ff.css",
-    "main.js": "/career_skills_carsharing/static/js/main.b198351b.js",
+    "main.js": "/career_skills_carsharing/static/js/main.23542506.js",
     "static/js/391.a0ac08e1.chunk.js": "/career_skills_carsharing/static/js/391.a0ac08e1.chunk.js",
     "static/js/69.86a8075a.chunk.js": "/career_skills_carsharing/static/js/69.86a8075a.chunk.js",
     "static/js/697.ba83af75.chunk.js": "/career_skills_carsharing/static/js/697.ba83af75.chunk.js",
     "static/js/210.142a3123.chunk.js": "/career_skills_carsharing/static/js/210.142a3123.chunk.js",
     "static/js/809.1a297b4d.chunk.js": "/career_skills_carsharing/static/js/809.1a297b4d.chunk.js",
-    "static/js/995.c5353ac0.chunk.js": "/career_skills_carsharing/static/js/995.c5353ac0.chunk.js",
+    "static/js/995.5af04fcb.chunk.js": "/career_skills_carsharing/static/js/995.5af04fcb.chunk.js",
     "static/media/sprite.svg": "/career_skills_carsharing/static/media/sprite.21709cfc22adb0eaf6e537e82e473da6.svg",
     "index.html": "/career_skills_carsharing/index.html",
     "main.b87514ff.css.map": "/career_skills_carsharing/static/css/main.b87514ff.css.map",
-    "main.b198351b.js.map": "/career_skills_carsharing/static/js/main.b198351b.js.map",
+    "main.23542506.js.map": "/career_skills_carsharing/static/js/main.23542506.js.map",
     "391.a0ac08e1.chunk.js.map": "/career_skills_carsharing/static/js/391.a0ac08e1.chunk.js.map",
     "69.86a8075a.chunk.js.map": "/career_skills_carsharing/static/js/69.86a8075a.chunk.js.map",
     "697.ba83af75.chunk.js.map": "/career_skills_carsharing/static/js/697.ba83af75.chunk.js.map",
     "210.142a3123.chunk.js.map": "/career_skills_carsharing/static/js/210.142a3123.chunk.js.map",
     "809.1a297b4d.chunk.js.map": "/career_skills_carsharing/static/js/809.1a297b4d.chunk.js.map",
-    "995.c5353ac0.chunk.js.map": "/career_skills_carsharing/static/js/995.c5353ac0.chunk.js.map"
+    "995.5af04fcb.chunk.js.map": "/career_skills_carsharing/static/js/995.5af04fcb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b87514ff.css",
-    "static/js/main.b198351b.js"
+    "static/js/main.23542506.js"
   ]
 }
