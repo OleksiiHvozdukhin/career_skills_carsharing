@@ -5,16 +5,9 @@ import { lazy } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import { SharedLayout } from './SharedLayout/SharedLayout';
 import { useDispatch, useSelector } from 'react-redux';
-import {
-  selectError,
-  selectFilters,
-  selectIsLoading,
-  selectLimitOnPage,
-  selectPage,
-} from 'redux/selectors';
+import { selectFilters, selectLimitOnPage, selectPage } from 'redux/selectors';
 import { useEffect } from 'react';
 import { fetchCars, getAllCars } from 'redux/operation';
-import { isEqual } from 'lodash';
 import { carsSlice } from 'redux/Cars/cars';
 // import { Loader } from './Loader';
 
@@ -25,8 +18,6 @@ const ErrorPage = lazy(() => import('../pages/ErrorPage'));
 
 export const App = () => {
   const dispatch = useDispatch();
-  const error = useSelector(selectError);
-  const isLoading = useSelector(selectIsLoading);
   const page = useSelector(selectPage);
   const limitOnPage = useSelector(selectLimitOnPage);
   const filters = useSelector(selectFilters);

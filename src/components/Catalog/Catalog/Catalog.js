@@ -3,7 +3,6 @@ import { incrementPage, reductionPage } from 'redux/Cars/cars';
 import { selectPage } from 'redux/selectors';
 import { CatalogItem } from '../CatalogItem/CatalogItem';
 import { CatalogContainer, MainContainer } from './Catalog.styled';
-import { useState } from 'react';
 
 export const Catalog = ({ cars }) => {
   const dispatch = useDispatch();

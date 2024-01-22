@@ -11,7 +11,6 @@ import {
   CatalogForm,
   CatalogInput,
   CatalogPrice,
-  CatalogSelect,
   CatalogSelectBrand,
   CatalogSelectPrice,
 } from './CatalogFilter.styled';
