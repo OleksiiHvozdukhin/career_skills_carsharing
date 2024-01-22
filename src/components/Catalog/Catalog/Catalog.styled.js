@@ -16,3 +16,15 @@ export const CatalogContainer = styled.div`
   justify-content: center;
   align-items: center;
 `;
+
+export const LeadMoreButton = styled.button`
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #3470ff;
+  background-color: transparent;
+  border: none;
+`;

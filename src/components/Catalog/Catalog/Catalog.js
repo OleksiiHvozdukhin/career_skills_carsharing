@@ -2,7 +2,11 @@ import { useDispatch, useSelector } from 'react-redux';
 import { incrementPage, reductionPage } from 'redux/Cars/cars';
 import { selectPage } from 'redux/selectors';
 import { CatalogItem } from '../CatalogItem/CatalogItem';
-import { CatalogContainer, MainContainer } from './Catalog.styled';
+import {
+  CatalogContainer,
+  LeadMoreButton,
+  MainContainer,
+} from './Catalog.styled';
 
 export const Catalog = ({ cars }) => {
   const dispatch = useDispatch();
@@ -27,8 +31,10 @@ export const Catalog = ({ cars }) => {
           </div>
         ))}
       </CatalogContainer>
-      {page > 1 && <button onClick={handleBack}>Back</button>}
-      {cars.length >= 12 && <button onClick={handleLoadMore}>Load More</button>}
+      {page > 1 && <LeadMoreButton onClick={handleBack}>Back</LeadMoreButton>}
+      {cars.length >= 12 && (
+        <LeadMoreButton onClick={handleLoadMore}>Load More</LeadMoreButton>
+      )}
     </MainContainer>
   );
 };
