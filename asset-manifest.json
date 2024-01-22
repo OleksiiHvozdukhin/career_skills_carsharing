@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/career_skills_carsharing/static/css/main.b87514ff.css",
-    "main.js": "/career_skills_carsharing/static/js/main.6b4d40ed.js",
-    "static/js/391.25f2c96e.chunk.js": "/career_skills_carsharing/static/js/391.25f2c96e.chunk.js",
+    "main.js": "/career_skills_carsharing/static/js/main.b198351b.js",
+    "static/js/391.a0ac08e1.chunk.js": "/career_skills_carsharing/static/js/391.a0ac08e1.chunk.js",
     "static/js/69.86a8075a.chunk.js": "/career_skills_carsharing/static/js/69.86a8075a.chunk.js",
     "static/js/697.ba83af75.chunk.js": "/career_skills_carsharing/static/js/697.ba83af75.chunk.js",
     "static/js/210.142a3123.chunk.js": "/career_skills_carsharing/static/js/210.142a3123.chunk.js",
@@ -11,8 +11,8 @@
     "static/media/sprite.svg": "/career_skills_carsharing/static/media/sprite.21709cfc22adb0eaf6e537e82e473da6.svg",
     "index.html": "/career_skills_carsharing/index.html",
     "main.b87514ff.css.map": "/career_skills_carsharing/static/css/main.b87514ff.css.map",
-    "main.6b4d40ed.js.map": "/career_skills_carsharing/static/js/main.6b4d40ed.js.map",
-    "391.25f2c96e.chunk.js.map": "/career_skills_carsharing/static/js/391.25f2c96e.chunk.js.map",
+    "main.b198351b.js.map": "/career_skills_carsharing/static/js/main.b198351b.js.map",
+    "391.a0ac08e1.chunk.js.map": "/career_skills_carsharing/static/js/391.a0ac08e1.chunk.js.map",
     "69.86a8075a.chunk.js.map": "/career_skills_carsharing/static/js/69.86a8075a.chunk.js.map",
     "697.ba83af75.chunk.js.map": "/career_skills_carsharing/static/js/697.ba83af75.chunk.js.map",
     "210.142a3123.chunk.js.map": "/career_skills_carsharing/static/js/210.142a3123.chunk.js.map",
@@ -21,6 +21,6 @@
   },
   "entrypoints": [
     "static/css/main.b87514ff.css",
-    "static/js/main.6b4d40ed.js"
+    "static/js/main.b198351b.js"
   ]
 }
