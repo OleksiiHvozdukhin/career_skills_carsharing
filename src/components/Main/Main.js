@@ -1,24 +1,8 @@
-import {
-  List,
-  ListElement,
-  ListInput,
-  ListDiv,
-  VideoBackground,
-  VideoIframe,
-} from './Main.styled';
+import { List, ListElement, ListInput, ListDiv } from './Main.styled';
 
 export const Main = () => {
   return (
     <div>
-      <VideoBackground>
-        <VideoIframe
-          src={`https://www.youtube.com/watch?v=dQw4w9WgXcQ`}
-          title="YouTube Video"
-          frameBorder="0"
-          allow="autoplay; encrypted-media"
-          allowFullScreen
-        />
-      </VideoBackground>
       <List>
         <ListElement>
           <ListInput type="checkbox" />
